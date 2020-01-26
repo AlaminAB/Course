@@ -1,0 +1,220 @@
+/*
+  Theme Name: 
+  Author: 
+  Support: 
+  Description: 
+  Version: 1.0
+*/
+
+
+/* CSS Index 
+-----------------------------------
+01.
+02.
+03.
+04.
+05.
+06.
+07.
+08.
+09.
+10.
+-----------------------------------
+CSS Index End */
+
+
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap');
+/* 
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+*/
+
+
+/************** Default CSS **************/
+
+:root {
+    --body: #252527;
+    --p: #fff;
+    --a: #fff;
+    --p: #fff;
+    --h: #fff;
+    --dark: #1F1F20;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: var(--body);
+}
+
+a,
+.button,
+button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--h);
+    text-transform: capitalize;
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+   font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--p);
+    margin-bottom: 15px;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    color: var(--a);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/************** Default CSS End **************/
+
+
+/************** Template CSS **************/
+
+
+button.btn.w-100 {
+    border: 2px solid #a76d60;
+    color: #a76d60;
+    -webkit-transition: 0.7s;
+       -moz-transition: 0.7s;
+        -ms-transition: 0.7s;
+         -o-transition: 0.7s;
+            transition: 0.7s;
+}
+button.btn.w-100:hover {
+    background: #601700;
+    color: #fff;
+    transition: 0.5s;
+    border: 2px solid #601700;
+}
+/* .input-group.mb-3 {
+    border: 3px solid #a76d60;
+    border-radius: 8px;
+} */
+.border-red{
+    border: 2px solid red;
+}
+.border-sky{
+    border: 2px solid green;
+}
+span#inputGroupPrepend {
+    background: #a76d60;
+    color: #fff;
+    border: none;
+}
+span.name-title {
+    background: #F6C127;
+    padding: 1px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+span.course-title {
+    background: #29A63E;
+    padding: 1px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+span.author-title {
+    background: #D23345;
+    padding: 1px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 12px;
+    color: #fff;
+}
+.card{
+        min-width: 220px;
+}
+.card-body {
+    padding-left: 10px;
+}
+#loading{
+    display: none;
+    font-size: 22px;
+}
+/************** Template CSS End **************/
